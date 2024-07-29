@@ -5,11 +5,11 @@ import { projects } from '@/data';
 export const RecentProjects = () => {
   return (
     <div className='text-white py-20 flex flex-col justify-center items-center w-full'>
-        <div className='text-4xl text-center font-bold'>
+        <div className='text-4xl lg:text-6xl text-center font-bold'>
             <h1 className=' header '>
                 A small selection of{" "}
             </h1>
-            <span className=' text-purple-300'>
+            <span className=' text-purple-500'>
                 Recent Projects
             </span>
         </div>

@@ -1,5 +1,4 @@
-import { FaHome } from "react-icons/fa"
-import { FaAws, FaDocker, FaNodeJs, FaReact } from "react-icons/fa6"
+import { FaHome } from "react-icons/fa";
 import { AWSIcon, BootstrapIcon, CSSIcon, DockerIcon, GoogleCloudIcon, HTMLIcon, MySQLIcon, NextJSIcon, NodeJSIcon, OpenAIIcon, PostgressIcon, PrismaIcon, PythonIcon, ReactIcon, TypescriptIcon } from "./components/icons"
 const cardTechWidht = "40";
 const cardTechHeight = "40";
@@ -77,5 +76,28 @@ export const projects = [
             <PostgressIcon width="40" height="40"/>,
             <DockerIcon width="40" height="40"/>,
         ]
+    },
+]
+
+export const workExperience = [
+    {
+        companyName: "Credence",
+        thumbnail: "/exp1.svg",
+        description: "Designed, developed, and maintained front-end and back-end components of web applications, ensuring high performance, reliability, and user satisfaction, and created over 15 custom React components for the UI library while managing application state efficiently.",
+    },
+    {
+        companyName: "Rule4",
+        thumbnail: "/exp2.svg",
+        description: "Developed an AI-driven cybersecurity application using Microsoft Teams transcripts and a Llama2 model for threat detection. Implemented a secure, low-latency Slack bot interface and deployed the application on Kubernetes and Docker for high availability and scalability.",
+    },
+    {
+        companyName: "ASANTe",
+        thumbnail: "/exp3.svg",
+        description: "Improved AWS security and efficiency by developing IAM roles, reduced data breaches by 10%, and enhanced system manageability. It also boosted service responsiveness with Golang microservices and effectively communicated technical proposals to stakeholders.",
+    },
+    {
+        companyName: "Solfir",
+        thumbnail: "/exp4.svg",
+        description: "Led back-end development to enhance user engagement, performance, and security. Created responsive web apps with React.js and used AWS EC2 and Load Balancer for scalability. It increased user engagement, reduced load times by 20%, improved security, and streamlined development.",
     },
 ]
