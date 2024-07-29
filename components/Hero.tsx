@@ -16,7 +16,7 @@ const Hero = () => {
   });
 
   return (
-    <div className='pb-20 pt-36 relative'>
+    <div className='pb-10 pt-36 relative'>
       <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-screen' fill='white' />
       <Spotlight className='top-10 left-full h-[80vh] w-[50vw]' fill='blue' />
       <Spotlight className='top-28 left-80 md:-left-32 h-[80vh] w-[50vw]' fill='purple' />
@@ -26,15 +26,15 @@ const Hero = () => {
       </div>
       <div className='flex justify-center relative my-20 z-10'>
         <div className='max-w-[89vw]  flex flex-col items-center justify-center'>
-          <h2 className='uppercase tracking-widest text-xs text-center text-purple-200 max-w-80'>
+          {/* <h2 className='uppercase tracking-widest text-xs text-center text-purple-200 max-w-80'>
             Made with 💜 by Rishikesh Solapure
-          </h2>
+          </h2> */}
           <div className='flex flex-col md:flex-row items-center justify-center space-x-0 md:space-x-40'>
             <div className='text-center'>
                 <h1 className='font-bold space-x-2 flex-wrap justify-center relative text-4xl lg:text-4xl w-full'>
                   Software Engineer that excels in <span className='text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-violet-600'>{typeEffect}</span>
                 </h1>
-              <p className='text-center text-xs lg:text-lg py-5'>
+              <p className='text-center text-sm lg:text-lg py-5'>
                 Hi, I&apos;m Rishikesh Solapure, a Software Engineer passionate about developing scalable, maintainable large-scale applications.
               </p>
               <a href='#about' className='mt-10'>
