@@ -4,7 +4,7 @@ import { workExperience } from '@/data'
 
 export const Experience = () => {
   return (
-    <div className='w-full py-20 flex flex-col justify-center'>
+    <div id='experience' className='w-full py-20  flex flex-col justify-center'>
         <div className='text-center text-4xl font-bold lg:text-6xl'> 
             My{" "}
             <span className='text-purple-500'>
@@ -30,20 +30,26 @@ export const Experience = () => {
               }}
             >
                 <div className='space-y-4'>
-                  <div className='flex items-center'>
+                  <div className='flex items-center gap-32'>
                   <img 
                     src={card.thumbnail}
                     alt={card.thumbnail}
                     className='w-16 lg:w-32 flex-none'
                     
                     />
+                    <div>
+
                     <h1 className='text-2xl lg:text-4xl font-bold flex-grow'>
                       { card.companyName}
                     </h1>
+                    <p className='text-lg'>
+                      {card.designation}
+                    </p>
+                    </div>
                   </div>
-                  <div className='py-4'>
+                  <div className='p-4'>
                     
-                    <p>
+                    <p className='text-sm'>
                       { card.description}
                     </p>
                   </div>

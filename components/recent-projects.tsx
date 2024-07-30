@@ -1,14 +1,15 @@
 import React from 'react'
 import { ProjectCard } from '@/components/project-card';
 import { projects } from '@/data';
+import { BackgroundBeams } from './ui/background-beams';
 
 export const RecentProjects = () => {
   return (
-    <div className='text-white py-20 flex flex-col justify-center items-center w-full'>
+    <>
+    <BackgroundBeams  className='-mt-20'/>
+    <div id="projects" className='text-white py-20 flex flex-col justify-center items-center w-full relative'>
         <div className='text-4xl lg:text-6xl text-center font-bold'>
-            <h1 className=' header '>
-                A small selection of{" "}
-            </h1>
+
             <span className=' text-purple-500'>
                 Recent Projects
             </span>
@@ -27,6 +28,8 @@ export const RecentProjects = () => {
                 ) )
             }
         </div>
+    
     </div>
+    </>
   )
 }

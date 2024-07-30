@@ -1,8 +1,6 @@
 "use client";
 
-import React from 'react'
-import { LampContainer } from './ui/lamp'
-import { motion } from 'framer-motion';
+import React from 'react';
 import { MagicButton } from './ui/magic-button';
 import { FaLocationArrow } from 'react-icons/fa';
 import { socialMedia } from '@/data';
@@ -10,7 +8,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
   return (
-    <div className=' flex flex-col justify-center items-center w-full'>
+    <div id='contact' className=' flex flex-col justify-center items-center w-full'>
         <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/footer-grid.svg"
@@ -20,7 +18,7 @@ export const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] text-4xl lg:text-6xl py-10">
+        <h1 className="heading lg:max-w-[45vw] text-4xl lg:text-6xl py-10 text-purple-500 font-bold">
           Let's Connect
         </h1>
         <a href="mailto:contact@jsmastery.pro">
