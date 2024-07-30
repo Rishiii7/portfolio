@@ -21,7 +21,7 @@ export const Footer = () => {
         <h1 className="heading lg:max-w-[45vw] text-4xl lg:text-6xl py-10 text-purple-500 font-bold">
           Let's Connect
         </h1>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:rishikeshsolapure0720@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
