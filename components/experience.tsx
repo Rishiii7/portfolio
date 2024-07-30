@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from './ui/moving-border'
 import { workExperience } from '@/data'
+import Image from 'next/image'
 
 export const Experience = () => {
   return (
@@ -31,11 +32,12 @@ export const Experience = () => {
             >
                 <div className='space-y-4'>
                   <div className='flex items-center gap-32'>
-                  <img 
+                  <Image 
                     src={card.thumbnail}
                     alt={card.thumbnail}
                     className='w-16 lg:w-32 flex-none'
-                    
+                    width={200}
+                    height={200}
                     />
                     <div>
 
