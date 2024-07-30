@@ -1,7 +1,7 @@
 import { FaHome } from "react-icons/fa";
-import { AWSIcon, BootstrapIcon, CSSIcon, DockerIcon, GoogleCloudIcon, HTMLIcon, MySQLIcon, NextJSIcon, NodeJSIcon, OpenAIIcon, PostgressIcon, PrismaIcon, PythonIcon, ReactIcon, TypescriptIcon } from "./components/icons"
-const cardTechWidht = "40";
-const cardTechHeight = "40";
+import { AWSIcon, BootstrapIcon, CSSIcon, DockerIcon, GithubIcon, GmailIcon, GoogleCloudIcon, HTMLIcon, LinkedlnIcon, MySQLIcon, NextJSIcon, NodeJSIcon, OpenAIIcon, PostgressIcon, PrismaIcon, PythonIcon, ReactIcon, TypescriptIcon } from './components/icons';
+import { FaGithub } from "react-icons/fa6";
+
 export const MainTechnologies = [
     "React",
     "Python",
@@ -99,5 +99,16 @@ export const workExperience = [
         companyName: "Solfir",
         thumbnail: "/exp4.svg",
         description: "Led back-end development to enhance user engagement, performance, and security. Created responsive web apps with React.js and used AWS EC2 and Load Balancer for scalability. It increased user engagement, reduced load times by 20%, improved security, and streamlined development.",
+    },
+]
+
+export const socialMedia = [
+    {
+        icon: <LinkedlnIcon  width="50" height="50"/>,
+        link: "https://www.linkedin.com/in/rishikesh-solapure/",
+    },
+    {
+        icon: <FaGithub className="w-10 h-10"/>,
+        link: "https://github.com/Rishiii7",
     },
 ]

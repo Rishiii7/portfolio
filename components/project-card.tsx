@@ -13,6 +13,7 @@ type ProjectCardProps = {
     image: string;
     githubLink: string;
     tech: React.ReactNode[];
+    key?: string;
 }
 
 export const ProjectCard = ({
@@ -20,10 +21,14 @@ export const ProjectCard = ({
     description,
     image,
     githubLink,
-    tech
+    tech,
+    key
 }: ProjectCardProps) => {
   return (
-    <CardContainer className="inter-var">
+    <CardContainer 
+      className="inter-var"
+      key={key}
+    >
       <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
         <CardItem
           translateZ="50"
@@ -57,6 +62,7 @@ export const ProjectCard = ({
             {
                 tech.map( (tech, id) => (
                     <CardItem
+                        key={`${tech}-${id}`}
                         translateZ={40}
                         className="px-4 py-2 rounded-xl text-xs font-bold"
                     >

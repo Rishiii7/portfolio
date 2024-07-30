@@ -22,6 +22,7 @@ export const RecentProjects = () => {
                         image={project.image}
                         githubLink={project.githubLink}
                         tech={project.tech}
+                        key={`${project.title}-${ind}`}
                     />
                 ) )
             }
