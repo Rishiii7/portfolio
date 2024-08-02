@@ -4,8 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Link from "next/link";
-import { FaGithub, FaReact } from "react-icons/fa";
-import { ReactIcon } from "./icons";
+import { FaGithub } from "react-icons/fa";
 
 type ProjectCardProps = {
     title: string;
