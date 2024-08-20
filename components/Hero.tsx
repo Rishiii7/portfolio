@@ -55,9 +55,9 @@ const Hero = () => {
               <Image 
                 src={"/profile-pic.png"}
                 alt='logo'
-                width={500}
-                height={500}
-                className='relative rounded-3xl'
+                width={384}
+                height={384}
+                className='relative rounded-full w-96 h-96 object-fit'
               />
               </BackgroundGradient>
             </div>
