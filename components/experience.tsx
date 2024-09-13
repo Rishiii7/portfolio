@@ -6,7 +6,7 @@ import Image from 'next/image'
 export const Experience = () => {
   return (
     <div id='experience' className='w-full py-20  flex flex-col justify-center'>
-        <div className='text-center text-4xl font-bold lg:text-6xl'> 
+        <div className='text-center text-4xl font-bold lg:text-6xl z-50'> 
             My{" "}
             <span className='text-purple-500'>
                 Work Experience
